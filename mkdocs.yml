@@ -1,0 +1,14 @@
+site_name: ProyectoASIR-e1
+site_url: https://github.com/UNAIrpgg/ProyectoASIR2-e1.git
+#En el caso de Github Pages solo se permite asociar la carpeta /docs
+site_dir: /docs
+docs_dir: /paginas
+#Implementación de un menú en MKDOCS. Incluyo ejemplo:
+nav:
+ - Home: index.md
+ - Configuracion odoo: varios.md
+ - Usuarios: otros.md
+ - Productos: productos.md
+ - Compras: gestiondecompras.md
+ - Ventas: ventas.md
+theme: readthedocs
